@@ -59,7 +59,7 @@ $(document).ready(function() {
 document.addEventListener('visibilitychange',
     function() {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio |Hamoudi Youba";
+            document.title = "Portfolio | Guermi Mohamed";
             $("#favicon").attr("href", "assets/images/portfolio.png");
         } else {
             document.title = "Come Back To Portfolio";
